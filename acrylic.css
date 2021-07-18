@@ -1,0 +1,51 @@
+.button {
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        color: black;
+        padding: 1.5% 0px 1.5% 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin-bottom: 0.3%;
+        cursor: pointer;
+        width : 100%;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+}
+
+.button:hover{
+	background-color: grey;
+}
+
+.alignall{
+	display: flex;
+	justify-content: center;
+}
+
+.img-adjust{
+	width: 100%;
+	height: 80%;
+	border-radius: 20px;
+}
+
+form{
+	margin: 2% 4%;
+	width: 20%;
+
+}
+
+@media screen and (max-width: 864px)
+{
+	.button{
+		font-size: 13px;
+        }
+
+        form{
+                width: 40%;
+        }
+}
+
